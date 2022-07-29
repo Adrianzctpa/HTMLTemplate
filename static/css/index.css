@@ -1,0 +1,18 @@
+.navbar-brand, .nav-link {
+  color: #fff;
+}
+.navbar-brand:hover, .nav-link:hover {
+  color: #fff;
+}
+
+.scale-width {
+  width: 50%;
+  margin: auto;
+}
+@media screen and (max-width: 960px) {
+  .scale-width {
+    width: 70%;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */
