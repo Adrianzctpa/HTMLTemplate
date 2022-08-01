@@ -1,6 +1,3 @@
-$normal: 50%;
-$small: 70%;
-
 .navbar-brand, .nav-link {
     color: #fff;
 
@@ -10,11 +7,46 @@ $small: 70%;
 }
 
 .scale-width { 
-    width: $normal;
+    width: 100%;
+    height: 100%;
+}
 
-    @media screen and (max-width: 960px) {
-        width: $small;
+.d-control {
+    display: flex;
+
+    @media screen and (min-width: 1200px) {
+        display: none;
     }
+}
 
-    margin: auto;
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+
+    @media (min-width: 768px) {
+        font-size: 3.5rem;
+    }
+}
+
+.carousel {
+    margin-bottom: 4rem;
+}
+
+.carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+
+    @media (min-width: 40em) {
+        margin-bottom: 1.25rem;
+        font-size: 1.25rem;
+        line-height: 1.4;
+    }
+    
+}
+
+.carousel-item {
+    height: 32rem;
 }
